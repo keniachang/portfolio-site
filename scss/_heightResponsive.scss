@@ -1,0 +1,238 @@
+// adjust according to height
+@media (max-height: 1050px) {
+    .scroll-up {
+        top: 9%;
+    }
+
+    .scroll-up,
+    .scroll-down {
+        font-size: 3rem;
+    }
+
+    .about-sect {
+        margin-top: 5rem;
+        padding: 1rem;
+
+        h1 {
+            margin-bottom: 1rem;
+        }
+
+        #bibliography {
+            height: 80px;
+            overflow-y: scroll;
+            margin-bottom: 1rem;
+            border: 1px solid darken($text-color, 30%);
+
+            p {
+                padding: 10px;
+            }
+        }
+
+        h2 {
+            margin-bottom: 0.2rem;
+        }
+
+        .education {
+            margin-bottom: 1rem;
+        }
+
+        .skills {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .works-sect {
+        margin-top: 5rem;
+    }
+
+    .contact-sect {
+        margin-top: 5rem;
+
+        form {
+            textarea {
+                height: 10em;
+            }
+        }
+    }
+}
+
+@media (max-height: 900px) {
+    .scroll-up {
+        top: 11%;
+    }
+
+    .about-sect {
+        margin-top: 4rem;
+        padding: 0.5rem;
+
+        #bibliography {
+            height: 50px;
+        }
+
+        .education {
+            width: 100%;
+
+            & > div {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 0.5rem;
+
+            h2 {
+                grid-column: 1 / span 2;
+            }
+
+            & > div {
+                margin-bottom: 0 !important;
+                background-color: inherit !important;
+            }
+        }
+
+        .more-info {
+            button {
+                padding: 5px 10px;
+            }
+        }
+    }
+
+    .works-sect {
+        gap: 1rem;
+    }
+
+    .contact-sect {
+        padding: 0.5rem;
+
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        form {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+
+            textarea {
+                height: 6em;
+            }
+
+            .subject-box {
+                grid-column: auto;
+            }
+
+            .message-box,
+            .spam-filter-box,
+            .submit-box {
+                grid-column: 1 / span 3;
+            }
+        }
+    }
+}
+
+@media (max-height: 700px) {
+    .scroll-up {
+        top: 15%;
+    }
+
+    .scroll-up,
+    .scroll-down {
+        font-size: 2rem;
+    }
+
+    .about-sect {
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        #bibliography {
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            margin-bottom: 0.1rem;
+        }
+
+        .education {
+            margin-bottom: 0.5rem;
+        }
+
+        .skills {
+            margin-bottom: 0.5rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 0.1rem;
+
+            h2 {
+                grid-column: 1 / span 3;
+            }
+
+            & > div {
+                width: 90%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            & > div:nth-child(even) {
+                background-color: lighten($bg-color, 10%) !important;
+            }
+        }
+
+        .more-info {
+            // align-self: start;
+            align-self: center;
+        }
+    }
+
+    .works-sect {
+        margin-top: 4rem;
+        grid-template-rows: auto;
+        row-gap: 0.5rem;
+
+        button {
+            margin-top: 0.5rem;
+        }
+
+        .description {
+            height: 40px;
+            overflow-y: scroll;
+            gap: 0.5rem;
+        }
+    }
+
+    .contact-sect {
+        form {
+            gap: 0.5rem;
+
+            textarea {
+                height: 5em;
+            }
+
+            button {
+                padding: 5px 10px;
+            }
+
+            .message-box {
+                grid-column: 1 / span 3;
+            }
+
+            .spam-filter-box {
+                grid-column: 1 / auto;
+            }
+
+            .submit-box {
+                grid-column: auto;
+            }
+        }
+    }
+}
+
+// @media (min-height: 560px) {
+//     .about-sect {
+//         .more-info {
+//             align-self: inherit;
+//         }
+//     }
+// }
