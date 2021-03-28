@@ -68,7 +68,16 @@
             border: 1px solid darken($text-color, 30%);
 
             p {
-                padding: 10px;
+                padding: 5px 10px;
+            }
+
+            p:first-child {
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+
+            p:last-child {
+                padding-top: 0;
             }
         }
 
