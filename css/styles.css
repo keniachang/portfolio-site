@@ -422,10 +422,6 @@ button:hover {
   height: 12em;
 }
 
-.contact-sect form .spam-filter-box {
-  width: 100%;
-}
-
 .contact-sect form .subject-box,
 .contact-sect form .message-box,
 .contact-sect form .spam-filter-box,
@@ -877,39 +873,6 @@ button:hover {
   }
 }
 
-@media (max-width: 400px) and (max-height: 600px) {
-  .about-sect #bibliography p {
-    font-size: 0.6rem;
-  }
-  .about-sect h2 {
-    font-size: 1.2rem;
-  }
-  .works-sect h1 {
-    font-size: 1.7rem;
-  }
-  .works-sect .title h2 {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 400px) and (min-height: 540px) {
-  .about-sect .skills {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .about-sect .skills h2 {
-    grid-column: 1 / span 2;
-  }
-  .about-sect .skills > div:nth-child(even) {
-    background-color: inherit !important;
-  }
-  .about-sect .skills > div span {
-    font-size: 0.7rem;
-  }
-  .about-sect .skills > div:hover span {
-    font-size: 0.7rem;
-  }
-}
-
 @media (max-width: 680px) and (min-height: 901px) {
   .about-sect .skills > div span {
     font-size: 0.9rem;
@@ -950,6 +913,74 @@ button:hover {
   }
   .about-sect .skills > div:hover span {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .contact-sect .spam-filter-box #rc-imageselect,
+  .contact-sect .spam-filter-box .g-recaptcha {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}
+
+@media (max-width: 420px) and (max-height: 600px) {
+  .about-sect #bibliography p {
+    font-size: 0.6rem;
+  }
+  .about-sect h2 {
+    font-size: 1.2rem;
+  }
+  .works-sect h1 {
+    font-size: 1.7rem;
+  }
+  .works-sect .title h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 420px) and (min-height: 540px) {
+  .about-sect .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-sect .skills h2 {
+    grid-column: 1 / span 2;
+  }
+  .about-sect .skills > div:nth-child(even) {
+    background-color: inherit !important;
+  }
+  .about-sect .skills > div span {
+    font-size: 0.7rem;
+  }
+  .about-sect .skills > div:hover span {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 420px) and (min-height: 701px) {
+  .about-sect .skills > div {
+    display: block;
+    justify-self: center;
+  }
+  .about-sect .skills > div span {
+    margin-right: 5px;
+    display: inline-block;
+  }
+  .about-sect .skills > div span,
+  .about-sect .skills > div:hover span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .about-sect .education p {
+    font-size: 0.7rem;
+  }
+  .about-sect .skills > div span,
+  .about-sect .skills > div:hover span {
+    font-size: 0.6rem;
   }
 }
 
