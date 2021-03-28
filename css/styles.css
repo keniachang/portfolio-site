@@ -416,12 +416,6 @@ button:hover {
   height: 13em;
 }
 
-.contact-sect form .spam-filter-box {
-  border: 1px solid #eee;
-  background-color: transparent;
-  color: #eee;
-}
-
 .contact-sect form .subject-box,
 .contact-sect form .message-box,
 .contact-sect form .spam-filter-box,
