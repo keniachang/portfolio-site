@@ -917,8 +917,11 @@ button:hover {
 }
 
 @media (max-width: 575px) {
-  .contact-sect .spam-filter-box #rc-imageselect,
-  .contact-sect .spam-filter-box .g-recaptcha {
+  .contact-sect form {
+    gap: 10px;
+  }
+  .contact-sect form .spam-filter-box #rc-imageselect,
+  .contact-sect form .spam-filter-box .g-recaptcha {
     transform: scale(0.77);
     -webkit-transform: scale(0.77);
     transform-origin: 0 0;

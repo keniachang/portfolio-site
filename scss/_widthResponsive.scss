@@ -445,13 +445,17 @@
 
 @media (max-width: 575px) {
     .contact-sect {
-        .spam-filter-box {
-            #rc-imageselect,
-            .g-recaptcha {
-                transform: scale(0.77);
-                -webkit-transform: scale(0.77);
-                transform-origin: 0 0;
-                -webkit-transform-origin: 0 0;
+        form {
+            gap: 10px;
+
+            .spam-filter-box {
+                #rc-imageselect,
+                .g-recaptcha {
+                    transform: scale(0.77);
+                    -webkit-transform: scale(0.77);
+                    transform-origin: 0 0;
+                    -webkit-transform-origin: 0 0;
+                }
             }
         }
     }
