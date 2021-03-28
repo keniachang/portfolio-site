@@ -423,11 +423,6 @@ button:hover {
   grid-column: 1 / span 2;
 }
 
-.contact-sect form div#rc-anchor-container {
-  background-color: transparent;
-  color: #eee;
-}
-
 .footer {
   position: absolute;
   bottom: 0;
