@@ -218,13 +218,13 @@
                 grid-column: 1 / span 3;
             }
 
-            .spam-filter-box {
-                grid-column: 1 / auto;
-            }
+            // .spam-filter-box {
+            //     grid-column: 1 / auto;
+            // }
 
-            .submit-box {
-                grid-column: auto;
-            }
+            // .submit-box {
+            //     grid-column: auto;
+            // }
         }
     }
 }

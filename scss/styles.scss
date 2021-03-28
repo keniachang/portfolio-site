@@ -324,6 +324,11 @@ button:hover {
         .submit-box {
             grid-column: 1 / span 2;
         }
+
+        div#rc-anchor-container {
+            background-color: transparent;
+            color: $text-color;
+        }
     }
 }
 
