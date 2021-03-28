@@ -18,13 +18,10 @@
         }
 
         #bibliography {
-            height: 80px;
-            overflow-y: scroll;
             margin-bottom: 1rem;
-            border: 1px solid darken($text-color, 30%);
 
             p {
-                padding: 10px;
+                font-size: 0.9rem;
             }
         }
 
@@ -67,6 +64,12 @@
 
         #bibliography {
             height: 50px;
+            overflow-y: scroll;
+            border: 1px solid darken($text-color, 30%);
+
+            p {
+                padding: 10px;
+            }
         }
 
         .education {

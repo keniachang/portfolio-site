@@ -450,13 +450,10 @@ button:hover {
     margin-bottom: 1rem;
   }
   .about-sect #bibliography {
-    height: 80px;
-    overflow-y: scroll;
     margin-bottom: 1rem;
-    border: 1px solid #a2a2a2;
   }
   .about-sect #bibliography p {
-    padding: 10px;
+    font-size: 0.9rem;
   }
   .about-sect h2 {
     margin-bottom: 0.2rem;
@@ -488,6 +485,11 @@ button:hover {
   }
   .about-sect #bibliography {
     height: 50px;
+    overflow-y: scroll;
+    border: 1px solid #a2a2a2;
+  }
+  .about-sect #bibliography p {
+    padding: 10px;
   }
   .about-sect .education {
     width: 100%;
