@@ -277,7 +277,7 @@ button:hover {
     padding: 1rem 2rem;
 
     h1 {
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
         font-size: 4rem;
         text-align: center;
     }
@@ -285,7 +285,7 @@ button:hover {
     form {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        gap: 1.5rem;
         font-size: 1.5rem;
 
         label {
